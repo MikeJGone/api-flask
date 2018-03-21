@@ -1,4 +1,4 @@
-Git使用：
+﻿Git使用：
 Git的基本命令:
 Git init：将当前目录初始化一个 .git 文件夹，这个子目录含有你初始化的 Git 仓库中所有的必须文件，这些文件是 Git 仓库的骨干。
 git clone [url]
@@ -8,8 +8,10 @@ $ git checkout -b develop：创建分支后直接切换到新的分支。
 $ git branch -a：查询当前所有分支。
 $ git push origin 分支名（develop）：将本地develop分支推送到Git服务器，生成远程分支。
 $ git fetch origin 分支名（develop）:分支名（develop）：远程分支代码拉取到本地。
-$ git status:检查工作区是否还有未处理的代码和文件
+$ git status:检查工作区是否还有未处理的代码和文件。
 
+$ git log -p master.. origin/分支名（develop）比较本地的仓库和远程参考的区别。
+$ git merge origin/分支名（develop） 把远程下载下来的代码合并到本地仓库，远程的和本地的合并。
 此时Alice和Bob就可以切到本地develop分支进行开发了（git checkout develop）。 
 1. 开发过程中每个工程师在推送代码之前要先执行拉取操作，因为远程仓库有更新的话，
 不先拉取（pull/fetch）是无法推送（push）的，尽量少使用git pull进行拉取，而是先用git fetch拉取在进行git merge。 
