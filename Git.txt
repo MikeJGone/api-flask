@@ -9,6 +9,7 @@ $ git branch -a：查询当前所有分支。
 $ git push origin 分支名（develop）：将本地develop分支推送到Git服务器，生成远程分支。
 $ git fetch origin 分支名（develop）:分支名（develop）：远程分支代码拉取到本地。
 $ git status:检查工作区是否还有未处理的代码和文件。
+$ git commit -a -m "（这里为备注）":将当前分支的修改的存到暂存区，之后可以push到远程Git仓库。
 
 $ git log -p master.. origin/分支名（develop）比较本地的仓库和远程参考的区别。
 $ git merge origin/分支名（develop） 把远程下载下来的代码合并到本地仓库，远程的和本地的合并。
