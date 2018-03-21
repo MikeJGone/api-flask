@@ -26,3 +26,4 @@ $ git fetch origin 分支名（develop）:分支名（develop）：远程分支代码拉取到本地。
 $ git branch -d 分支名（develop）：删除本地分支。
 $ git push origin --delete 分支名（develop）：删除远程分支。
 
+根据他人使用经验总结。
