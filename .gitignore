@@ -1,3 +1,5 @@
+venv/
 ProjectManagement/project/migrations/
 ProjectManagement/user/migrations/
-
+ProjectManagement/.idea/
+.idea/
