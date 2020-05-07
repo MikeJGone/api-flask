@@ -1,0 +1,4 @@
+/venv
+/ProjectManagement/project/migrations
+/ProjectManagement/user/migrations
+/.idea

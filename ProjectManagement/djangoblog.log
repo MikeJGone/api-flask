@@ -1,0 +1,71 @@
+[2020-05-07 11:32:12,655] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 11:32:27,872] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 11:37:27,411] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 11:38:35,246] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\ProjectManagement\settings.py changed, reloading.
+[2020-05-07 11:38:35,806] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 11:50:54,480] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 11:52:20,195] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\project\models.py changed, reloading.
+[2020-05-07 11:52:21,285] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 11:53:25,304] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 11:55:24,152] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\ProjectManagement\settings.py changed, reloading.
+[2020-05-07 11:55:25,188] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 11:58:57,671] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 12:00:17,370] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\views.py changed, reloading.
+[2020-05-07 12:00:18,401] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 12:02:19,604] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 12:05:55,646] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\views.py changed, reloading.
+[2020-05-07 12:05:56,648] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 12:07:49,846] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 12:09:20,858] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\views.py changed, reloading.
+[2020-05-07 12:09:21,980] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 12:10:37,223] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\views.py changed, reloading.
+[2020-05-07 12:10:38,240] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 12:15:25,084] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\models.py changed, reloading.
+[2020-05-07 12:15:26,109] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:02:27,532] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:05:21,280] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:06:16,819] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\views.py changed, reloading.
+[2020-05-07 15:06:17,998] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:10:31,624] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:12:45,405] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:14:22,178] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:38:22,544] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:41:09,777] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:44:13,373] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:47:05,312] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:52:51,894] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\ProjectManagement\verify_args_middleware.py changed, reloading.
+[2020-05-07 15:52:52,912] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:53:52,625] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\views.py changed, reloading.
+[2020-05-07 15:53:53,624] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:54:13,853] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\views.py changed, reloading.
+[2020-05-07 15:54:14,868] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:54:28,432] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\views.py changed, reloading.
+[2020-05-07 15:54:29,415] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 15:54:50,905] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\ProjectManagement\verify_args_middleware.py changed, reloading.
+[2020-05-07 15:54:51,896] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:04:55,458] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:13:40,204] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\ProjectManagement\verify_args_middleware.py changed, reloading.
+[2020-05-07 16:13:41,188] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:15:49,633] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:19:01,749] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:20:12,110] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:21:20,817] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\manage.py changed, reloading.
+[2020-05-07 16:21:21,820] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:21:48,767] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\ProjectManagement\verify_args_middleware.py changed, reloading.
+[2020-05-07 16:21:49,766] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:24:36,077] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\ProjectManagement\verify_args_middleware.py changed, reloading.
+[2020-05-07 16:24:37,218] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:24:41,644] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\ProjectManagement\verify_args_middleware.py changed, reloading.
+[2020-05-07 16:24:42,677] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:26:58,613] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\views.py changed, reloading.
+[2020-05-07 16:26:59,662] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:27:34,311] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\ProjectManagement\settings.py changed, reloading.
+[2020-05-07 16:27:35,290] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:29:21,722] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\views.py changed, reloading.
+[2020-05-07 16:29:22,707] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:30:57,342] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:32:06,825] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:39:35,080] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:40:43,179] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
+[2020-05-07 16:44:37,316] INFO [django.utils.autoreload.trigger_reload:222 autoreload] E:\one\ProjectManagement\user\views.py changed, reloading.
+[2020-05-07 16:44:38,362] INFO [django.utils.autoreload.run_with_reloader:598 autoreload] Watching for file changes with StatReloader
