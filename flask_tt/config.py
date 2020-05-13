@@ -29,3 +29,11 @@ config = {
     "prod": ProductionConfig,
     "dev": DevelopmentConfig,
 }
+
+# redis 配置项
+redis_config = {
+    'host': '127.0.0.1',
+    'port': 6379,
+    'password': '',
+    'decode_responses': True,
+}

@@ -12,6 +12,12 @@ class Role(db.Model):
     def __repr__(self):
         return 'Role(%r)' % self.role_name
 
+    def keys(self):
+        return ('id', 'role_name')
+
+    def __getitem__(self, item):
+        return getattr(self, item)
+
 
 class User(db.Model):
     __tablename__ = 'users'
@@ -21,3 +27,9 @@ class User(db.Model):
 
     def __repr__(self):
         return 'User(%r)' % self.user_name
+
+    def keys(self):
+        return ('id', 'user_name', 'role_id')
+
+    def __getitem__(self, item):
+        return getattr(self, item)
