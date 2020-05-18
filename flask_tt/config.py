@@ -1,4 +1,8 @@
+from datetime import datetime
 import os
+
+
+WEB_ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 
 class Config:
@@ -37,3 +41,8 @@ redis_config = {
     'password': '',
     'decode_responses': True,
 }
+
+# log format
+LOG_DATE = datetime.now().strftime('%Y-%m-%d')+f'({str(os.getpid())})'
+LOG_FILE = f"logs/{LOG_DATE}.log"
+LOG_FORMAT_STR = '%(asctime)s-%(levelname)s-%(filename)s-%(funcName)s-%(lineno)d  %(message)s'

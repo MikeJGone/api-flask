@@ -8,7 +8,7 @@ cache = redis.Redis(**redis_config)
 
 def set_cache_data(key, value):
     data = json.dumps(value)
-    cache.set(key, data)
+    cache.spipet(key, data)
     return
 
 

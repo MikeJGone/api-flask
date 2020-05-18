@@ -1,9 +1,11 @@
 from flask import Blueprint, request, jsonify
-from flask_tt.models import User, db, Role
+from flask_tt.models import User, Role, db
 from flask_tt.cache import *
+import logging
 import json
 
 mod = Blueprint('user', __name__, url_prefix='/user')
+logger = logging.getLogger(__name__)
 
 
 @mod.route('/<int:id>', methods=['GET'])
@@ -18,12 +20,12 @@ def get(id):
         # user 相关的role的字段序列化缓存
         set_cache_data(role_key, dict(user.role))
         role = user.role
-        print("no cache")
+        logger.info('no cache,set it')
     else:
         user = User(**get_cache_data(key))
         role_key = 'role_id_%s' % str(user.role_id)
         role = Role(**get_cache_data(role_key))
-        print("cache")
+        logger.info("have cache,this's ok")
     return jsonify(username=user.user_name, roleName=role.role_name, id=id)
 
 
@@ -63,16 +65,16 @@ def get_for_page():
     data = json.loads(request.data)
     page_index = data.get('pageIndex')
     page_size = data.get('pageSize')
-    type = data.get('type', 'id')
-    key = f"user_page_{type}_{page_index}_{page_size}"
+    column = data.get('type', 'id')
+    key = f"user_page_{column}_{page_index}_{page_size}"
     result = []
     if not get_cache_data(key):
-        users = User.query.order_by(type).paginate(page_index, page_size)
+        users = User.query.order_by(column).paginate(page_index, page_size)
         for user in users.items:
             result.append({'userName': user.user_name, 'roleName': user.role.role_name})
         set_cache_data(key, result)
-        print('no cache')
+        logger.debug('no cache,set it')
     else:
         result = get_cache_data(key)
-        print('cache')
+        logger.debug("have cache,this's ok")
     return jsonify(result)
